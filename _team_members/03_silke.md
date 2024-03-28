@@ -1,7 +1,7 @@
 ---
 initials: ss
 name: Silke Schwandt
-role: PI
+role: Project Lead
 institution: Bielefeld University
 image: assets/img/team/silke.png
 mail: silke.schwandt@uni-bielefeld.de

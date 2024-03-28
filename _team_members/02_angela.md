@@ -1,7 +1,7 @@
 ---
 initials: ah
 name: Angela Huang
-role: PI
+role: Project Lead
 institution: Research Centre for Hanse and Baltic History, European Hansemuseum Lübeck
 image: assets/img/team/angela.png
 mail: alhuang@fgho.eu

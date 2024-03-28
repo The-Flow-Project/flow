@@ -1,7 +1,7 @@
 ---
 initials: th
 name: Tobias Hodel
-role: PI
+role: Project Lead
 institution: University of Bern
 image: assets/img/team/tobias.jpg
 mail: tobias.hodel@unibe.ch
