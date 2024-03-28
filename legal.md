@@ -23,10 +23,10 @@ The content of this website has been reviewed with great care. However, the Univ
 The author aims to respect the copyrights of all media and texts used in all publications, using own creations or opting for license-free materials. The copyright for any material created by the author remains solely with the author. Reproduction or use of such materials in other electronic or printed publications is not permitted without the express consent of the author.
 
 Image Copyright:
-- Hanserecesse: Archiv der Hansestadt Lübeck, ASA Externa, Hanseatica, Nr. 211. (c) Hanseatic City of Lübeck. 
+- Hanserecesse: Archiv der Hansestadt Lübeck, ASA Externa, Hanseatica, Nr. 211. © Hanseatic City of Lübeck. 
 - Turmbücher: 
 - Essoins: TNA KB 27 189 m3 © Crown copyright. Reproduction by The National Archives, London, England. 
-- Team Lübeck: Angela Huang, Vivien Popken, Inga Lange, Judith Neubauer – (C) Europäisches Hansemuseum Lübeck/ Photo: Olaf Malzahn.
-- Team Bern: Dominic Weber – (C) Departement Geschichte, Universität Basel; Tobias Hodel - (c) Universität Bern; Jonas Widmer (c) privat.
-- Team Bielefeld: Silke Schwandt – (c) Universität Bielefeld; Christopher Kuhlmann, Dana Meyer, Melvin Wilde - (c) privat. 
-- Group Picture: (c) Melvin Wilde, 2024.
+- Team Lübeck: Angela Huang, Vivien Popken, Inga Lange, Judith Neubauer – © Europäisches Hansemuseum Lübeck/ Photo: Olaf Malzahn.
+- Team Bern: Dominic Weber – © Departement Geschichte, Universität Basel; Tobias Hodel - © Universität Bern; Jonas Widmer © privat.
+- Team Bielefeld: Silke Schwandt – © Universität Bielefeld; Christopher Kuhlmann, Dana Meyer, Melvin Wilde - © privat. 
+- Group Picture: © Melvin Wilde, 2024.
