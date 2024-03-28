@@ -11,18 +11,18 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Home"
-      section: page-top
+    - title: "The Idea"
+      section: idea
     - title: "The Project"
-      section: project
+      section: details
     - title: "Sub-Projects"
       section: portfolio
     - title: "The Team"
       section: team
-    - title: "News & Activities"
-      section: news
-    - title: "Output"
-      section: output
+    #- title: "News & Activities"
+    #  section: news
+    #- title: "Output"
+    #  section: output
 en-US:
   <<: *DEFAULT_EN
 en-CA:

@@ -1,13 +1,11 @@
 ---
-title: Bielefeld
-subtitle: Somethingsomething Essoins
-image: assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+title: "A Digital Analysis of Common Law: Social Dynamics in Early English Justice"
+subtitle: "*Essoins* – Medieval English Court Rolls"
 
 caption:
-  title: Bielefeld
-  subtitle: Essoins
-  thumbnail: assets/img/portfolio/02-thumbnail.jpg
+  title: Court Rolls
+  subtitle: Digital History, Bielefeld University
+  thumbnail: assets/img/subprojects/bielefeld01-thumbnail.jpg
 ---
 The team at Bielefeld University is particularly interested in analysing the court rolls of the early English Common Law. There are two main aspects to the sub-project: 1. Digitization of different types of court rolls of the 13th and 14th centuries using HTR and OCR models; 2. Analysis of the specific role of essoins within the Common Law focusing on the impact of social categorization on legal procedure using NLP tools.
 

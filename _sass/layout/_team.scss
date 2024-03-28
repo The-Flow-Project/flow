@@ -1,0 +1,43 @@
+// Styling for the team section
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+    img {
+      width: 225px;
+      height: 225px;
+      padding: 2px;
+      border: 1px solid darken($primary, 20%);
+      object-fit: scale-down;
+    }
+    h4 {
+      margin-top: 25px;
+      margin-bottom: 0;
+      text-transform: none;
+    }
+    p {
+      margin-top: 0;
+    }
+  }
+
+.team-hide {
+  display: none;
+}
+
+.team-hover:hover ~ .team-hide {
+    display: block;
+}
+
+.card.team-member {
+    background-color: transparent;
+    border: none;
+
+    .card-header {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding-bottom: 0;
+    }
+    .card-header:hover {
+        text-decoration: underline;
+    }
+}

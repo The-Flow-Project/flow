@@ -1,37 +1,37 @@
 ---
 layout: page
-title: Privacy Policy
+title: Impressum
 ---
 <div class="col-lg-12 text-center">
 	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
 </div>
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
+### Concept, Editing, Website Design, and Implementation
+Universität Bern\
+Walter Benjamin Kolleg\
+Digital Humanities\
+Muesmattstrasse 45\
+3012 Bern
 
-**PERSONAL INFORMATION WE COLLECT**
+[e-mail]
 
-{% if site.analytics.google %}
+Web Design: Dominic Weber, [dominic.weber@unibe.ch](mailto:dominic.weber@unibe.ch)\
+Based on: [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme)
 
-Automatically Collected (Google Analytics):
+### Liability
+The content of this website has been reviewed with great care. However, the University of Bern cannot guarantee the accuracy, completeness or validity of the information provided. Therefore the  University of Bern accepts no liability for the contents provided and is not responsible for contents on any other websites.
 
-When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
+### Copyright
+The author aims to respect the copyrights of all media and texts used in all publications, using own creations or opting for license-free materials. The copyright for any material created by the author remains solely with the author. Reproduction or use of such materials in other electronic or printed publications is not permitted without the express consent of the author.
 
-We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org.
+Images used:
+- Hanserecesse: Archiv der Hansestadt Lübeck, ASA Externa, Hanseatica, Nr. 211.
+- Turmbücher: 
+- Essoins: 
+- Team Lübeck: Angela Huang, Vivien Popken, Inga Lange, Judith Neubauer – © Europäisches Hansemuseum Lübeck/ Foto: Olaf Malzahn.
+- Team Bern: Dominic Weber – © Departement Geschichte, Universität Basel; Tobias Hodel - © Universität Bern; ...
+- Team Bielefeld: Silke Schwandt – © Universität Bielefeld; Christopher Kuhlmann, Dana Meyer, Melvin Wilde - © privat. 
+- Group Picture: © Melvin Wilde, 2024.
+- Logo/ Workflow Graph: © Digital History, Universität Bielefeld. Design by [Name Graphic Designer].
 
-We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>.
-
-You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
-
-{% else %}
-
-We do not collect any data about you or use any cookies.
-
-{% endif %}
-
-**CHANGES**
-
-We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
-
-**CONTACT US**
-
-For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+© 2024 University of Bern

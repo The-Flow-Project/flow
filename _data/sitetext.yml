@@ -14,25 +14,15 @@ en: &DEFAULT_EN
     title: Welcome to
     text: The Flow
     button: Tell Me More
-    buttonlink: "#project"
+    buttonlink: "#idea"
 
-  about:
-    title: "The Flow"
-    text: "From Deep-Learning to Digital Analysis and their Role in the Humanities Creating, Evaluating, and Critiquing Workflows for Historical Corpora"
-    body: "Historical research increasingly makes use of digitization, benefiting from advancements in Handwritten Text Recognition and Natural Language Processing. This is where The Flow comes in and aims to promote the use of digital methods by developing a workflow that can be used by historians without expertise in information science and coding.
-    
-
-    The Flow, running from 2023 to 2026, strives to create standardized digital workflows using existing  technology, facilitating easier digital work with premodern historical sources.
-
-
-    The Flow is a joint project of the DH departments of the Universities of Bern and Bielefeld and the Research Centre for Hanse and Baltic History in Lübeck. The project is funded by the Swiss National Science Foundation (SNF) and the German Research Foundation (DFG)."
-    section: project
-
-  services:
+  details:
     title: "Project"
-    text: "I believe we need to redesign this section"
-    section: project
-    list:
+    subheading: "The Flow - Advancing Historical Text Recognition and Analysis"
+    paragraphs:
+      - text:
+    section: details
+    partners:
       - title: "But we could"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
@@ -54,54 +44,27 @@ en: &DEFAULT_EN
 
   team:
     title: "The Team"
-    text: "This section needs customization to support association to sub-projects"
-    subtext: "But in general, it seems to work fine."
+    text: Meet the team behind *The Flow*
     section: team
-    people:
-      - name: "Tobias Hodel"
-        role: "is tenure track assistant professor in digital humanities at the University of Bern since 2019. He researches and teaches machine learning methods in and for the humanities. This includes the automated recognition of historical manuscripts, the extraction of information and the development of specific language models. Hodel holds a doctorate in history and leads research projects at the University of Bern, including on the tower books of the city of Bern from the early modern period, chat systems for university didactics in the 21st century and the historical telephone directories of Switzerland."
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+            
+  clients:
+    section: funders
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "dfg"
+        url: https://www.dfg.de/
+        logo: assets/img/clients/dfg.png
+      - title: "snf"
+        url: https://snf.ch/
+        logo: assets/img/clients/snf_neg_d.png
 
   footer:
-    legal: "Privacy Policy"
+    copyright: University of Bern
+    legal: "Impressum"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/The-Flow-Project
         icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

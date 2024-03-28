@@ -32,6 +32,21 @@ analytics:
 
 collections:
   portfolio:
+  paragraphs:
+  team_members:
+    order:
+      - tobias.md
+      - angela.md
+      - silke.md
+      - christopher.md
+      - inga.md
+      - dominic.md
+      - dana.md
+      - jonas.md
+      - vivien.md
+      - anna.md
+      - judith.md
+      - melvin.md
 
 markdown: kramdown
 

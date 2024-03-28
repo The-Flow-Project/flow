@@ -1,13 +1,19 @@
 #Color Customization
-#highlight: "#54bfff"
+highlight: "#00ee00"
 #white: "#FF0000"
 #black: "#000"
 
 #Image Customization
-header-image: "../img/header-bg.jpg"
+header-image: "../img/header-team.jpg"
 contact-image: "../img/map-image.png"
 
 #Set custom fonts
 fonts: 
   - name: "Courier New"
     for: "script"
+  - name: "Courier New"
+    for: "heading"
+  - name: "Courier New"
+    for: "serif"
+  - name: "Courier New"
+    for: "body"

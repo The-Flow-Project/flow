@@ -1,13 +1,11 @@
 ---
-title: Lübeck
-subtitle: Somethingsomething Hanserecesse
-image: assets/img/portfolio/03-full.jpg
-alt: 
+title: "Navigating the Hanse: A Long-Term Analysis of Hanse Diets and Policy Making"
+subtitle: "*Hanserecesse* – Protocolls and Resolutions of Urban Meetings (1358-1669)"
 
 caption:
-  title: Lübeck
-  subtitle: Hanserecesse
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  title: Hanserecesse
+  subtitle: Research Centre for Hanse and Baltic History, European Hansemuseum Lübeck
+  thumbnail: assets/img/subprojects/luebeck01-thumbnail.jpg
 ---
 The project carried out at the Research Centre for Hanse and Baltic History (FGHO) in Lübeck delves into the extensive sources on the inner workings of the German Hanse, a voluntary association of merchants and towns shaping economic and political landscapes for centuries. The hanserecesse, spanning from 1358 to 1669, document the common voluntary decision making of towns located in the vast area from today‘s Netherlands to Estonia. These records covering about three centuries form the central source corpora on the history and development of the German Hanse. 
 
