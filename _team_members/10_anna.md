@@ -6,8 +6,6 @@ institution: University of Bern
 image: assets/img/team/avatar.png
 mail: anna.funk@unibe.ch
 social:
-    - url: 
-      icon: fab fa-orcid
     - url: https://www.dh.unibe.ch/about_us/people/funk_anna/index_eng.html
       icon: fas fa-globe
 ---

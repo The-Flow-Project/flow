@@ -6,8 +6,6 @@ institution: Research Centre for Hanse and Baltic History, European Hansemuseum 
 image: assets/img/team/inga.jpg
 mail: ilange@fgho.eu
 social:
-    - url: 
-      icon: fab fa-orcid
     - url: https://fgho.eu/de/team_neu
       icon: fas fa-globe
 ---

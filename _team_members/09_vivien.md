@@ -6,8 +6,6 @@ institution: Research Centre for Hanse and Baltic History, European Hansemuseum 
 image: assets/img/team/vivien.jpg
 mail: vpopken@fgho.eu
 social:
-    - url: 
-      icon: fab fa-orcid
     - url: https://fgho.eu/de/team_neu
       icon: fas fa-globe
     - url: https://www.linkedin.com/in/vivien-popken-02411b257/

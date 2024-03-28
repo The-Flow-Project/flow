@@ -1,5 +1,5 @@
 ---
-title: Project
+title: The Project
 subtitle: The Flow - Advancing Historical Text Recognition and Analysis
 section: details
 logos:

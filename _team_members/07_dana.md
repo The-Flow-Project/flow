@@ -6,8 +6,6 @@ institution: Bielefeld University
 image: assets/img/team/dana.jpg
 mail: dana.meyer@uni-bielefeld.de
 social:
-    - url: 
-      icon: fab fa-orcid
     - url: https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=348679074
       icon: fas fa-globe
 ---

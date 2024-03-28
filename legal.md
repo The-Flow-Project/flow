@@ -3,7 +3,7 @@ layout: page
 title: Impressum
 ---
 <div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
+	<h2 class="section-heading text-uppercase">{{ page.title }}</h2>
 </div>
 
 ### Concept, Editing, Website Design, and Implementation
@@ -12,8 +12,6 @@ Walter Benjamin Kolleg\
 Digital Humanities\
 Muesmattstrasse 45\
 3012 Bern
-
-[e-mail]
 
 Web Design: Dominic Weber, [dominic.weber@unibe.ch](mailto:dominic.weber@unibe.ch)\
 Based on: [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme)
@@ -24,14 +22,11 @@ The content of this website has been reviewed with great care. However, the Univ
 ### Copyright
 The author aims to respect the copyrights of all media and texts used in all publications, using own creations or opting for license-free materials. The copyright for any material created by the author remains solely with the author. Reproduction or use of such materials in other electronic or printed publications is not permitted without the express consent of the author.
 
-Images used:
-- Hanserecesse: Archiv der Hansestadt Lübeck, ASA Externa, Hanseatica, Nr. 211.
+Image Copyright:
+- Hanserecesse: Archiv der Hansestadt Lübeck, ASA Externa, Hanseatica, Nr. 211. (c) Hanseatic City of Lübeck. 
 - Turmbücher: 
-- Essoins: 
-- Team Lübeck: Angela Huang, Vivien Popken, Inga Lange, Judith Neubauer – © Europäisches Hansemuseum Lübeck/ Foto: Olaf Malzahn.
-- Team Bern: Dominic Weber – © Departement Geschichte, Universität Basel; Tobias Hodel - © Universität Bern; ...
-- Team Bielefeld: Silke Schwandt – © Universität Bielefeld; Christopher Kuhlmann, Dana Meyer, Melvin Wilde - © privat. 
-- Group Picture: © Melvin Wilde, 2024.
-- Logo/ Workflow Graph: © Digital History, Universität Bielefeld. Design by [Name Graphic Designer].
-
-© 2024 University of Bern
+- Essoins: TNA KB 27 189 m3 © Crown copyright. Reproduction by The National Archives, London, England. 
+- Team Lübeck: Angela Huang, Vivien Popken, Inga Lange, Judith Neubauer – (C) Europäisches Hansemuseum Lübeck/ Photo: Olaf Malzahn.
+- Team Bern: Dominic Weber – (C) Departement Geschichte, Universität Basel; Tobias Hodel - (c) Universität Bern; Jonas Widmer (c) privat.
+- Team Bielefeld: Silke Schwandt – (c) Universität Bielefeld; Christopher Kuhlmann, Dana Meyer, Melvin Wilde - (c) privat. 
+- Group Picture: (c) Melvin Wilde, 2024.

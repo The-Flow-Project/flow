@@ -4,6 +4,7 @@ name: Tobias Hodel
 role: PI
 institution: University of Bern
 image: assets/img/team/tobias.jpg
+mail: tobias.hodel@unibe.ch
 social:
     - url: https://orcid.org/0000-0002-2071-6407 
       icon: fab fa-orcid
