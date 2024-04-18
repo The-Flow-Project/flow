@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Sub-Projects"
-    text: "Four subprojects contribute to the project’s overall goal by analysing legal and administrative sources spanning different periods and regions, including England (13-15th centuries), the northern European Hanse area (14th-17th centuries), Switzerland (16-18th centuries), and Ethiopia (19th century).
+    text: "Four subprojects contribute to the project’s overall goal by analysing legal and administrative sources spanning different periods and regions, including England (13-14th centuries), the northern European Hanse area (14th-17th centuries), Switzerland (16-18th centuries), and Ethiopia (19th century).
     
     
     The sources will be studied with digital methods, namely the use of (newly created) Handwritten Text Recognition and Natural Language Processing models for historical languages. Through a praxeological and institutional framework, our project tackles complex research questions surrounding societal processes, the practice of law, and its impact on everyday life."

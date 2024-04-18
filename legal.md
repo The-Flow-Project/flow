@@ -24,7 +24,7 @@ The author aims to respect the copyrights of all media and texts used in all pub
 
 Image Copyright:
 - Hanserecesse: Archiv der Hansestadt Lübeck, ASA Externa, Hanseatica, Nr. 211. © Hanseatic City of Lübeck. 
-- Turmbücher: 
+- Turmbücher: Staatsarchiv Bern, B IX 487
 - Essoins: TNA KB 27 189 m3 © Crown copyright. Reproduction by The National Archives, London, England. 
 - Team Lübeck: Angela Huang, Vivien Popken, Inga Lange, Judith Neubauer – © Europäisches Hansemuseum Lübeck/ Photo: Olaf Malzahn.
 - Team Bern: Dominic Weber – © Departement Geschichte, Universität Basel; Tobias Hodel - © Universität Bern; Jonas Widmer © privat.

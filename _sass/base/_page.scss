@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
     @include body-font;
     background-color: $gray-900;
-    color: $primary;
+    color: darken($primary, 10%);
   }
 
   p {
@@ -12,18 +12,28 @@ body {
   }
   
   a {
-    color: $primary;
+    color: darken($primary, 10%);
     &:hover {
       color: darken($primary, 10%);
     }
   }
   
   .text-primary {
-    color: $primary !important;
+    color: darken($primary, 10%);
   }
 
   .text-muted {
     color: darken($primary, 10%) !important;
+
+    ::-moz-selection {
+      background: darken(#EE00EE, 10%);
+      text-shadow: none;
+    }
+    
+    ::selection {
+      background: darken(#EE00EE, 10%);
+      text-shadow: none;
+    }
   }
   
   h1,
@@ -34,6 +44,7 @@ body {
   h6 {
     font-weight: 700;
     @include heading-font;
+    color: $primary;
   }
   
   .page-section {
@@ -57,16 +68,17 @@ body {
   }
   
   // Highlight color customization
+
   ::-moz-selection {
-    background: $primary;
+    background: #EE00EE;
     text-shadow: none;
   }
   
   ::selection {
-    background: $primary;
+    background: #EE00EE;
     text-shadow: none;
   }
-  
+
   img::selection {
     background: transparent;
   }
