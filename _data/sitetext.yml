@@ -29,6 +29,10 @@ en: &DEFAULT_EN
     title: "The Team"
     text: Meet the team behind *The Flow*
     section: team
+
+  alumni:
+    title: "Alumni"
+    text: "Former team members of *The Flow*. Thank you for your contribution <3"
             
   clients:
     section: funders
