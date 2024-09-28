@@ -1,76 +1,26 @@
 <!-- Team -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
-<div class="container">
-  <div class="row">
-	<div class="col-lg-12 text-center">
-	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].team.title }}</h2>
-	  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].team.text | markdownify }}</h3>
-	</div>
-  </div>
-  <div class="row d-flex justify-content-center">
-  {% for person in site.team_members %}
-  {% if person.alumni != true %}
-	<div class="col-sm-4">
-	  <div class="card team-member">
-		<div class="card-header collapsed" data-toggle="collapse" data-target="#team{{ person.initials }}">
-			<img class="mx-auto rounded-circle team-hover" src="{{ person.image }}" alt="">
-			<h4>{{ person.name }}</h4>
-			<p class="text-muted">{{ person.role }}, {{ person.institution }}</p>
-		</div>
-		<a href="mailto:{{ person.mail }}" class="text-muted" style="padding-bottom: 0.75em;">{{ person.mail }}</a>
-		<div id="team{{ person.initials }}" class="collapse">
-			<p class="text-muted">{{ person.content }}</p>
-		</div>
-		<ul class="list-inline social-buttons">
-		{% for network in person.social %}
-		  <li class="list-inline-item">
-			<a href="{{ network.url }}">
-			  <i class="{{ network.icon }}"></i>
-			</a>
-		  </li>
-		{% endfor %}
-		</ul>
-	  </div>
-	</div>
-  {% endif %}
-  {% endfor %}
-  </div>
-  <div class="row">
-	<div class="col-lg-12 text-center">
-	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].alumni.title }}</h2>
-	  <h3 class="section-subheading mb-1 text-muted">{{ site.data.sitetext[site.locale].alumni.text | markdownify }}</h3>
-	</div>
-  </div>
-  {% for person in site.team_members %}
-    {% if person.alumni == true %}
-  		<div class="row mb-1 justify-content-center">
-			{{ person.name }} ({{ person.role }}, {{ person.institution }})
-			{% if person.orcid %}
-				<a href="{{ person.orcid }}"><i class="fab fa-orcid"></i></a>
-			{% endif %}
-		</div>
-  	{% endif %}
-  {% endfor %}
-</div>
-</section>
-{% else %}
 <section class="page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
 	<div class="container">
 	  <div class="row">
 		<div class="col-lg-12 text-center">
 		  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
+		  <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text | markdownify }}</h3>
 		</div>
 	  </div>
 	  <div class="row d-flex justify-content-center">
-	  {% for person in site.data.sitetext.team.people %}
+	  {% for person in site.team_members %}
 	  {% if person.alumni != true %}
 		<div class="col-sm-4">
-		  <div class="team-member">
-			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
-			<h4>{{ person.name }}</h4>
-			<p class="text-muted">{{ person.role }}, {{ person.institution}}</p>
+		  <div class="card team-member">
+			<div class="card-header collapsed" data-toggle="collapse" data-target="#team{{ person.initials }}">
+				<img class="mx-auto rounded-circle team-hover" src="{{ person.image }}" alt="">
+				<h4>{{ person.name }}</h4>
+				<p class="text-muted">{{ person.role }}, {{ person.institution }}</p>
+			</div>
+			<a href="mailto:{{ person.mail }}" class="text-muted" style="padding-bottom: 0.75em;">{{ person.mail }}</a>
+			<div id="team{{ person.initials }}" class="collapse">
+				<p class="text-muted">{{ person.content }}</p>
+			</div>
 			<ul class="list-inline social-buttons">
 			{% for network in person.social %}
 			  <li class="list-inline-item">
@@ -87,11 +37,20 @@
 	  </div>
 	  <div class="row">
 		<div class="col-lg-12 text-center">
-		  <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].alumni.title }}</h2>
-		  <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].alumni.text | markdownify }}</h3>
+		  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.alumni.title }}</h2>
+		  <h3 class="section-subheading mb-1 text-muted">{{ site.data.sitetext.alumni.text | markdownify }}</h3>
 		</div>
 	  </div>
+	  {% for person in site.team_members %}
+		{% if person.alumni == true %}
+			  <div class="row mb-1 justify-content-center">
+				{{ person.name }} ({{ person.role }}, {{ person.institution }})
+				{% if person.orcid %}
+					<a href="{{ person.orcid }}"><i class="fab fa-orcid"></i></a>
+				{% endif %}
+			</div>
+		  {% endif %}
+	  {% endfor %}
 	</div>
-</section>
-{% endif %}
+	</section>
 <!-- End Team -->
