@@ -22,6 +22,55 @@ portfolio:
   section: portfolio
   closebutton: "Close Project"
 
+timeline:
+    title: "Activites"
+    text: "Our past and upcoming activities"
+    section: activities
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Paper Presentation at the Conference \"Digital History and Citizen Science 2024\""
+        date: "20 September 2024"
+        place: "Martin-Luther-Universität Halle-Wittenberg"
+        desc: "Dominic Weber presented his Paper \"Faktizität und historiographische Autorität von Machine Learning Output\" at the Conference \"Digital History and Citizen Science 2024\"."
+        links:
+          - title: "Conference Programme"
+            url: "https://www.conftool.org/digital-humanities-citizen-science-2024/index.php?page=browseSessions&print=embed&presentations=show&search="
+      - title: "Online Summer School \"The Flow\""
+        date: "26 - 28 August 2024"
+        place: "Online / Research Centre for Hanse and Baltic History, European Hansemuseum Lübeck"
+        desc: "The Flow team held an online summer school entitled \"A digital Workflow for Historical Corpora - from HTR to NER\". The days after, we met for an internal workshop."
+        links:
+          - title: "Summer School Programme"
+            url: "https://fgho.eu/en/summerschool24"
+      - title: "Paper Presentation \"Archive im digitalen Zeitalter\" at Schleswig-Holsteinischer Archivtag 2024"
+        date: "24 April 2024"
+        place: "Nordkolleg Rendsburg"
+        desc: "Angela Huang and Vivien Popken presented their paper \"Archive im digitalen Zeitalter: Wie (halb)automatisierte Handschriftenerkennung unseren Zugang zu Quellen verändern kann\" at the Schleswig-Holsteinischer Archivtag 2024."
+        links:
+          - title: "Further Information"
+            url: "https://vka-sh.de/detail-2/schleswig-holsteinischer-archivtag-2024.html"
+      - title: "Poster Presentation at Phil.-hist. Forschungstag 2024"
+        date: "22 April 2024"
+        place: "University of Bern"
+        desc: "Dominic Weber and Jonas Widmer presented a poster on the project at the Phil.-hist. Forschungstag 2024."
+        links:
+          - title: "Further Information"
+            url: "https://www.wbkolleg.unibe.ch/ueber_uns/oeffentlichkeit/veranstaltungen/phil_hist_forschungstag_2024/index_ger.html"
+      - title: "Workshop \"not opaque flow\" at DHd2024"
+        date: "26 February 2024"
+        place: "University of Passau"
+        desc: "The Flow team plus Inga Kirschnick and Patrick Jentsch from [nopaque](https://nopaque.uni-bielefeld.de/) held a workshop entitled \"not opaque flow - Workflows zur Aufbereitung und Auswertung historischer Dokumente\" at the DHd2024 conference in Passau."
+        links:
+          - title: "Book of Abstracts"
+            url: "https://zenodo.org/records/10686565"
+      - title: "Workshop \"The Flow - Kick-off\""
+        date: "28 - 30 August 2023"
+        place: "University of Bern"
+        # you can enforce the alignment
+        align: right
+    end: "July 2023: Project Start"
+
 team:
   title: "The Team"
   text: Meet the team behind *The Flow*
