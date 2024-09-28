@@ -39,18 +39,18 @@
 		<div class="col-lg-12 text-center">
 		  <h2 class="section-heading text-uppercase">{{ site.data.sitetext.alumni.title }}</h2>
 		  <h3 class="section-subheading mb-1 text-muted">{{ site.data.sitetext.alumni.text | markdownify }}</h3>
+		  {% for person in site.team_members %}
+		  {% if person.alumni == true %}
+		  <div class="text-muted"> 
+		  {{ person.name }} ({{ person.role }}, {{ person.institution }})
+		  {%- if person.orcid -%}
+		  <a href="{{ person.orcid }}"><i class="fab fa-orcid"></i></a>
+		  {%- endif -%}
+		  </div>
+		  {% endif %}
+		  {% endfor %}
 		</div>
 	  </div>
-	  {% for person in site.team_members %}
-		{% if person.alumni == true %}
-			  <div class="row mb-1 justify-content-center">
-				{{ person.name }} ({{ person.role }}, {{ person.institution }})
-				{% if person.orcid %}
-					<a href="{{ person.orcid }}"><i class="fab fa-orcid"></i></a>
-				{% endif %}
-			</div>
-		  {% endif %}
-	  {% endfor %}
 	</div>
 	</section>
 <!-- End Team -->
