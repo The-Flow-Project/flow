@@ -8,9 +8,6 @@
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
 header:
-  title: Welcome to
-  text: The Flow
-  button: Tell Me More
   buttonlink: "#idea"
 
 portfolio:

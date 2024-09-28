@@ -21,9 +21,9 @@ title      : The Flow
 email      : 
 description: "The Flow – From Deep-Learning to Digital Analysis and their Role in the Humanities Creating, Evaluating, and Critiquing Workflows for Historical Corpora"
 author     : The Flow
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+logo:     #optional, defaults to site title
+  path: "assets/img/TheFlow_white.png"
+  height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
