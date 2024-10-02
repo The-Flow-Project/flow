@@ -71,6 +71,7 @@ timeline:
 team:
   title: "The Team"
   text: Meet the team behind *The Flow*
+  image: ../assets/img/header-team.jpg
   section: team
 
 alumni:
