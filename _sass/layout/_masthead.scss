@@ -5,10 +5,10 @@ header.masthead {
     background-image: url("#{$header-image}");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position-x: center;
+    background-position: center center;
     background-size: contain;
     .intro-text {
-      padding-top: 50px;
+      padding-top: 150px;
       padding-bottom: 200px;
       .intro-lead-in {
         font-size: 22px;
@@ -48,7 +48,7 @@ header.masthead {
   }
   @media (min-width: 1260px) {
     header.masthead {
-      background-size: cover;
+      background-size: contain;
         .intro-text {
           padding-top: 200px;
         }

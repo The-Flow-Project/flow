@@ -1,7 +1,6 @@
 // Styling for the navbar
 #mainNav {
     background-color: $gray-900;
-    position: sticky;
     .navbar-toggler {
       font-size: 12px;
       right: 0;
@@ -16,11 +15,17 @@
       color: $primary;
       font-weight: 700;
       @include script-font;
+      visibility: hidden;
       &.active,
       &:active,
       &:focus,
       &:hover {
         color: darken($primary, 10%);
+      }
+    }
+    &.navbar-shrink {
+      .navbar-brand {
+        visibility: visible;
       }
     }
     .navbar-nav {
@@ -48,7 +53,7 @@
       -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
       transition: padding-top 0.3s, padding-bottom 0.3s;
       border: none;
-      background-color: $gray-900;
+      background-color: transparent;
       .navbar-brand {
         font-size: 1.75em;
         -webkit-transition: all 0.3s;

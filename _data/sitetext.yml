@@ -7,52 +7,110 @@
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
-# English (default)
-# -----------------
-en: &DEFAULT_EN
-  header:
-    title: Welcome to
-    text: The Flow
-    button: Tell Me More
-    buttonlink: "#idea"
+header:
+  buttonlink: "#idea"
 
-  portfolio:
-    title: "Sub-Projects"
-    text: "Four subprojects contribute to the project’s overall goal by analysing legal and administrative sources spanning different periods and regions, including England (13-14th centuries), the northern European Hanse area (14th-17th centuries), Switzerland (16-18th centuries), and Ethiopia (19th century).
-    
-    
-    The sources will be studied with digital methods, namely the use of (newly created) Handwritten Text Recognition and Natural Language Processing models for historical languages. Through a praxeological and institutional framework, our project tackles complex research questions surrounding societal processes, the practice of law, and its impact on everyday life."
-    section: portfolio
-    closebutton: "Close Project"
+portfolio:
+  title: "Sub-Projects"
+  text: "Four subprojects contribute to the project’s overall goal by analysing legal and administrative sources spanning different periods and regions, including England (13-14th centuries), the northern European Hanse area (14th-17th centuries), Switzerland (16-18th centuries), and Ethiopia (19th century).
+  
+  
+  The sources will be studied with digital methods, namely the use of (newly created) Handwritten Text Recognition and Natural Language Processing models for historical languages. Through a praxeological and institutional framework, our project tackles complex research questions surrounding societal processes, the practice of law, and its impact on everyday life."
+  section: portfolio
+  closebutton: "Close Project"
 
-  team:
-    title: "The Team"
-    text: Meet the team behind *The Flow*
-    section: team
+timeline:
+    title: "Activites"
+    text: "Our past and upcoming activities"
+    section: activities
+    show_past_events: 3
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Paper Presentation \"Go with the Flow: Wie Historiker:innen serielles Schriftgut digital auswerten (können)\""
+        date: "12 - 13 Juni 2025"
+        people: "Angela Huang & Silke Schwandt"
+        place: "Workshop \"Künstliche Intelligenz und historische (Justiz-)-Forschung\", Justus-Liebig-Universität Gießen"
+        past: false
+      - title: "Paper Presentation \"Faktizität und historiographische Autorität von Machine Learning Output\""
+        date: "20 September 2024"
+        people: "Dominic Weber"
+        place: "Digital History and Citizen Science Conference, Martin-Luther-Universität Halle-Wittenberg"
+        links:
+          - title: "Conference Programme"
+            url: "https://www.conftool.org/digital-humanities-citizen-science-2024/index.php?page=browseSessions&print=embed&presentations=show&search="
+        past: true
+      - title: "Paper Presentation \"On the Historiographic Authority of Machine Learning Systems\""
+        date: "12 September 2024"
+        people: "Dominic Weber"
+        place: "Digital History Switzerland 2024, University of Basel"
+        links:
+          - title: "Extended Abstract"
+            url: "https://digihistch24.github.io/book-of-abstracts/submissions/465/"
+        past: true
+      - title: "Summer School \"A digital Workflow for Historical Corpora - from HTR to NER\""
+        date: "26 - 28 August 2024"
+        people: "The Flow Team"
+        place: "Online / Research Centre for Hanse and Baltic History, European Hansemuseum Lübeck"
+        links:
+          - title: "Summer School Programme"
+            url: "https://fgho.eu/en/summerschool24"
+        past: true
+      - title: "Paper Presentation \"Archive im digitalen Zeitalter: Wie (halb)automatisierte Handschriftenerkennung unseren Zugang zu Quellen verändern kann\""
+        date: "24 April 2024"
+        people: "Angela Huang & Vivien Popken"
+        place: "Schleswig-Holsteinischer Archivtag 2024, Nordkolleg Rendsburg"
+        links:
+          - title: "Further Information"
+            url: "https://vka-sh.de/detail-2/schleswig-holsteinischer-archivtag-2024.html"
+        past: true
+      - title: "Poster Presentation \"Go with the Flow. Towards Reusable Workflows\""
+        date: "22 April 2024"
+        people: "Dominic Weber & Jonas Widmer"
+        place: "Phil.-hist. Forschungstag 2024, University of Bern"
+        links:
+          - title: "Further Information"
+            url: "https://www.wbkolleg.unibe.ch/ueber_uns/oeffentlichkeit/veranstaltungen/phil_hist_forschungstag_2024/index_ger.html"
+        past: true
+      - title: "Workshop \"not opaque flow - Workflows zur Aufbereitung und Auswertung historischer Dokumente\""
+        date: "26 February 2024"
+        people: "The Flow Team, Patrick Jentsch & Inga Kirschnick (both *[nopaque](https://nopaque.uni-bielefeld.de/)*)"
+        place: "DHd2024 Conference, University of Passau"
+        links:
+          - title: "Book of Abstracts"
+            url: "https://zenodo.org/records/10686565"
+        past: true
+      - title: "Workshop \"The Flow - Kick-off\""
+        date: "28 - 30 August 2023"
+        people: "The Flow Team"
+        place: "University of Bern"
+        past: true
+
+team:
+  title: "The Team"
+  text: Meet the team behind *The Flow*
+  image: ../assets/img/header-team.jpg
+  section: team
+
+alumni:
+  title: "Alumni"
+  text: "Former team members of *The Flow*. Thank you for your contribution <3"
             
-  clients:
-    section: funders
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "dfg"
-        url: https://www.dfg.de/
-        logo: assets/img/clients/dfg.png
-      - title: "snf"
-        url: https://snf.ch/
-        logo: assets/img/clients/snf_neg_d.png
+clients:
+  section: funders
+  max-height: 100px
+  horizontal-scrolling: "" #"yes/no"
+  list:
+    - title: "dfg"
+      url: https://www.dfg.de/
+      logo: assets/img/clients/dfg.png
+    - title: "snf"
+      url: https://snf.ch/
+      logo: assets/img/clients/snf_neg_d.png
 
-  footer:
-    copyright: University of Bern
-    legal: "Impressum"
-    social:
-      - url: https://github.com/The-Flow-Project
-        icon: "fab fa-github"
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
+footer:
+  copyright: University of Bern
+  legal: "Impressum"
+  social:
+    - url: https://github.com/The-Flow-Project
+      icon: "fab fa-github"
