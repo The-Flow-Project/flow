@@ -11,48 +11,69 @@
       <div class="col-lg-12">
         <ul class="timeline">
     {%- assign align = site.data.sitetext.timeline.start_align -%}
+    {%- assign show_past_events = site.data.sitetext.timeline.show_past_events -%}
+    {%- assign past_events = 0 -%}
     {%- for event in site.data.sitetext.timeline.events -%}
         {%- if align == "right" -%}
           {%- if event.align and event.align == "left" -%}
             {%- assign align = "right" -%}
-            <li>
+            {%- if past_events >= show_past_events -%}
+              <li id="timelinecollapse" class="collapse">
+            {%- else -%}
+                <li>
+            {%- endif -%}
           {%- else -%}
             {%- assign align = "left" %}
+            {%- if past_events >= show_past_events -%}
+              <li id="timelinecollapse" class="timeline-inverted collapse">
+            {%- else -%}
             <li class="timeline-inverted">
+            {%- endif -%}
           {% endif %}
         {% else %}
           {%- if event.align and event.align == "right" -%}
             {%- assign align = "left" -%}
+            {%- if past_events >= show_past_events -%}
+              <li id="timelinecollapse" class="timeline-inverted collapse">
+            {%- else -%}
             <li class="timeline-inverted">
+            {%- endif -%}
           {%- else -%}
             {%- assign align = "right" %}
+            {%- if past_events >= show_past_events -%}
+            <li id="timelinecollapse" class="collapse">
+          {%- else -%}
             <li>
-          {% endif %}
           {%- endif -%}
+          {% endif %}
+        {%- endif -%}
             <div class="timeline-image">
               <h4>{{ event.date }}</h4>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4 class="subheading">{{ event.title }}</h4>
-                <h5 class="subheading">{{ event.place | markdownify }}</h4>
+                <h5 class="subheading">{{ event.title | markdownify }}</h5>
+                <div class="subheading">{{ event.people | markdownify }}</div>
               </div>
               <div class="timeline-body">
-                <div class="text-muted">{{ event.desc | markdownify }}</div>
+                <div class="text-muted">{{ event.place | markdownify }}</div>
                 {%- for item in event.links -%}
                   <div><a href="{{ item.url }}">> {{ item.title }}</a></div>
                 {%- endfor -%}
               </div>
             </div>
           </li>
-    {% endfor %}	            
-	    {% if site.data.sitetext.timeline.end %}	
-		<li class="timeline-inverted">
-          <div class="timeline-image">
-            <h4>{{ site.data.sitetext.timeline.end }}</h4>
-          </div>
-        </li>
-		{% endif %}
+          {%- if event.past == true -%}
+            {%- assign past_events = past_events | plus: 1 -%}
+          {%- endif -%}
+          {% endfor %}	            
+            <li>
+              <div class="timeline-image">
+                <a data-toggle="collapse" href="#timelinecollapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <h4><i onclick="toggleChevron(this)" class="fas fa-chevron-down"></i></h4>
+                </a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
