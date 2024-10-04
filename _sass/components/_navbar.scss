@@ -15,11 +15,17 @@
       color: $primary;
       font-weight: 700;
       @include script-font;
+      visibility: hidden;
       &.active,
       &:active,
       &:focus,
       &:hover {
         color: darken($primary, 10%);
+      }
+    }
+    &.navbar-shrink {
+      .navbar-brand {
+        visibility: visible;
       }
     }
     .navbar-nav {
