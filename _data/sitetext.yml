@@ -31,6 +31,14 @@ timeline:
         date: "12 - 13 Juni 2025"
         people: "Angela Huang & Silke Schwandt"
         place: "Workshop \"Künstliche Intelligenz und historische (Justiz-)-Forschung\", Justus-Liebig-Universität Gießen"
+        past: false      
+      - title: "Workshop \"BeNASch: Praktische Einblicke und Diskussion. Ein Workshop zur nachhaltigen Annotation von Entitäten und Ereignissen in historischen Texten\""
+        date: "23 - 24 January 2025"
+        people: "Ismail Prada Ziegler (*[Economies of Space](https://dg.philhist.unibas.ch/en/bereiche/mittelalter/forschung/oekonomien-des-raums/)*) & Dominic Weber"
+        place: "University of Bern"
+        links:
+          - title: "Workshop Flyer"
+            url: "https://www.dh.unibe.ch/unibe/portal/fak_historisch/fsuf/d_dh/content/e330319/e336052/e1614057/2024__Flyer_WorkshopBeNASch_ger.pdf"
         past: false
       - title: "Workshop \"Identifying Textual Reuse in Ottoman Fatwas: Applying Novel Methodologies in Ottoman Legal Historiography\""
         date: "3 - 4 October 2024"
