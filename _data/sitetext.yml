@@ -39,7 +39,7 @@ timeline:
         links:
           - title: "Workshop Flyer"
             url: "https://www.dh.unibe.ch/unibe/portal/fak_historisch/fsuf/d_dh/content/e330319/e336052/e1614057/2024__Flyer_WorkshopBeNASch_ger.pdf"
-        past: false
+        past: true
       - title: "Workshop \"Identifying Textual Reuse in Ottoman Fatwas: Applying Novel Methodologies in Ottoman Legal Historiography\""
         date: "3 - 4 October 2024"
         people: "Sefer Korkmaz"
