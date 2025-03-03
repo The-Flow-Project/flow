@@ -27,11 +27,24 @@ timeline:
     # left is the default
     #start_align: "left"
     events:
+      - title: "Session 544 'Digital Data Flows: Processing Medieval Documents from England, Berne, and the Hanse'"
+        date: "07 - 10 July 2025"
+        people: Tobias Hodel, Silke Schwandt, Christopher Kuhlmann, Inga Lange, Dominic Weber
+        place: IMC Leeds, Leeds University
+        links:
+          - title: "Session Details"
+            url: https://imc-leeds.confex.com/imc/2025/prelim.cgi/Session/7158
+        past: false
       - title: "Paper Presentation \"Go with the Flow: Wie Historiker:innen serielles Schriftgut digital auswerten (können)\""
-        date: "12 - 13 Juni 2025"
+        date: "12 - 13 June 2025"
         people: "Angela Huang & Silke Schwandt"
         place: "Workshop \"Künstliche Intelligenz und historische (Justiz-)-Forschung\", Justus-Liebig-Universität Gießen"
-        past: false      
+        past: false
+      - title: "PhD Workshop: Method Criticism and Reflection"
+        date: "11 - 12 February 2025"
+        people: "Mathew Barber (*[Aga Khan University, ISMC London](https://aku.academia.edu/MathewBarber)*), Moritz Feichtinger (*[University of Basel](https://dg.philhist.unibas.ch/de/personen/moritz-feichtinger/)*), Andreas Kuczera (*[Technische Hochschule Mittelhessen](https://www.thm.de/mni/andreas-kuczera)*), Ina Serif (*[University of Basel](https://dg.philhist.unibas.ch/de/personen/ina-cathrin-serif/)*), Sefer Korkmaz, Christopher Kuhlmann, Inga Lange, Dominic Weber"
+        place: Online
+        past: true
       - title: "Workshop \"BeNASch: Praktische Einblicke und Diskussion. Ein Workshop zur nachhaltigen Annotation von Entitäten und Ereignissen in historischen Texten\""
         date: "23 - 24 January 2025"
         people: "Ismail Prada Ziegler (*[Economies of Space](https://dg.philhist.unibas.ch/en/bereiche/mittelalter/forschung/oekonomien-des-raums/)*) & Dominic Weber"
