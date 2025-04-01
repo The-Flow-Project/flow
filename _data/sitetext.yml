@@ -40,6 +40,40 @@ timeline:
         people: "Angela Huang & Silke Schwandt"
         place: "Workshop \"Künstliche Intelligenz und historische (Justiz-)-Forschung\", Justus-Liebig-Universität Gießen"
         past: false
+      - title: "Microservice-Based Data Management and Processing: A Workflow using GitHub Repositories and Actions"
+        date: "3 - 6 June 2025"
+        people: "Dana Meyer & Jonas Widmer"
+        place: "DH Benelux 2025, Vrije Universiteit Amsterdam"
+        links:
+          - title: "Conference Details"
+            url: https://2025.dhbenelux.org/
+        past: false
+      - title: "Hanse goes digital: (halb)automatisierte Handschriftenerkennung und digitale Auswertung von Hansequellen - Erfahrungen und Perspektiven"
+        date: "15 May 2025"
+        people: "Angela Huang"
+        place: "University of Bamberg (online seminar)"
+        past: false
+      - title: "Hanse goes digital: Potentiale für die Hanseforschung durch digitale Workflows und Methoden"
+        date: "14 May 2025"
+        people: "Angela Huang"
+        place: "Historisches Kolloquium der Technischen Universität Braunschweig"
+        past: false
+      - title: "Enhancing Named Entity Recognition for Digital History: Towards Explainable and Trustworthy Models"
+        date: "27 - 28 March 2025"
+        people: "Dominic Weber"
+        place: "Conference \"Words in Numbers. Data-Driven Approaches to Texts in the Humanities and Social Sciences\", Ruhr-Universität Bochum"
+        links:
+          - title: "Conference Programme"
+            url: https://runip-projekt.ruhr-uni-bochum.de/words_in_numbers.html
+        past: true
+      - title: "The Hanse and its privileges: A Long-Term Perspective through Digital Methods"  
+        date: "26 - 29 March 2025"
+        people: "Inga Lange"
+        place: "European Social Science History Congress, Universiteit Leiden"
+        links:
+          - title: "Session Details"
+            url: https://event.esshc2025.exordo.com/presentation/1849/the-hanse-and-its-privileges-a-long-term-perspective-through-digital-methods
+        past: true
       - title: "PhD Workshop: Method Criticism and Reflection"
         date: "11 - 12 February 2025"
         people: "Mathew Barber (*[Aga Khan University, ISMC London](https://aku.academia.edu/MathewBarber)*), Moritz Feichtinger (*[University of Basel](https://dg.philhist.unibas.ch/de/personen/moritz-feichtinger/)*), Andreas Kuczera (*[Technische Hochschule Mittelhessen](https://www.thm.de/mni/andreas-kuczera)*), Ina Serif (*[University of Basel](https://dg.philhist.unibas.ch/de/personen/ina-cathrin-serif/)*), Sefer Korkmaz, Christopher Kuhlmann, Inga Lange, Dominic Weber"
