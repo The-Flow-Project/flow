@@ -12,6 +12,7 @@ logos:
     - img: assets/img/logos/FGHO_Logo_schwarz_links.jpg
       alt: Logo Research Centre for Hanse and Baltic History, European Hansemuseum Lübeck
       url: https://fgho.eu/en/research-centre
+video: https://www.youtube.com/embed/iInPHwbFviQ
 ---
 Digitization is now an integral part of historical research. Historians and the humanities in general have much to gain from advances in machine-learning approaches that can transform text processing capabilities. However, their full potential remains largely untapped within the humanities. The tools and workflows to make use of new technologies are often only available to those who have a deep understanding of information science. Our project aims to bridge this gap by facilitating the widespread adoption and critical use of machine-learning technologies.
 
