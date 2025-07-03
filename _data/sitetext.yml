@@ -27,6 +27,22 @@ timeline:
     # left is the default
     #start_align: "left"
     events:
+      - title: "Summer School: Building Workflows in the Digital Humanities"
+        date: "09 - 12 September 2025"
+        people: "The Flow Team"
+        place: online
+        links:
+          - title: "Further Information and Application Instructions"
+            url: https://www.hsozkult.de/event/id/event-155032?title=building-workflows-in-the-digital-humanities&recno=1&q=digital+academy&sort=newestPublished&fq=&total=6#mtAc_event-99764
+        past: false
+      - title: "Summer School: Digital Humanities for Islamic Studies – Introduction, Exchange, and Hands-on"
+        date: "01 - 04 September 2025"
+        people: Sefer Korkmaz
+        place: Bern, University of Bern
+        links:
+          - title: "Digital Humanities for Islamic Studies – Introduction, Exchange, and Hands-on"
+            url: https://www.islamwissenschaft.unibe.ch/index_eng.html
+        past: <false>
       - title: "Session 544 'Digital Data Flows: Processing Medieval Documents from England, Berne, and the Hanse'"
         date: "07 - 10 July 2025"
         people: Tobias Hodel, Silke Schwandt, Christopher Kuhlmann, Inga Lange, Dominic Weber
@@ -35,11 +51,19 @@ timeline:
           - title: "Session Details"
             url: https://imc-leeds.confex.com/imc/2025/prelim.cgi/Session/7158
         past: false
+      - title: "Panel: Text, Technology, and Tradition: Leveraging Digital Methods in Islamic Research, BRAIS 2025: Annual Conference of the British Association of Islamic Studies"
+        date: "30 June 2025"
+        people: Sefer Korkmaz
+        place: "Cambridge, University of Cambridge"
+        links:
+          - title: "In pursuit of Jerusalem’s jurisprudential pearls: Digital Analysis of Jerusalem Sijills"
+            url: https://www.brais.ac.uk/conferences/brais-2025/brais-2025-programme
+        past: true
       - title: "Paper Presentation \"Go with the Flow: Wie Historiker:innen serielles Schriftgut digital auswerten (können)\""
         date: "12 - 13 June 2025"
         people: "Angela Huang & Silke Schwandt"
         place: "Workshop \"Künstliche Intelligenz und historische (Justiz-)-Forschung\", Justus-Liebig-Universität Gießen"
-        past: false
+        past: true
       - title: "Microservice-Based Data Management and Processing: A Workflow using GitHub Repositories and Actions"
         date: "3 - 6 June 2025"
         people: "Dana Meyer & Jonas Widmer"
@@ -47,17 +71,17 @@ timeline:
         links:
           - title: "Conference Details"
             url: https://2025.dhbenelux.org/
-        past: false
+        past: true
       - title: "Hanse goes digital: (halb)automatisierte Handschriftenerkennung und digitale Auswertung von Hansequellen - Erfahrungen und Perspektiven"
         date: "15 May 2025"
         people: "Angela Huang"
         place: "University of Bamberg (online seminar)"
-        past: false
+        past: true
       - title: "Hanse goes digital: Potentiale für die Hanseforschung durch digitale Workflows und Methoden"
         date: "14 May 2025"
         people: "Angela Huang"
         place: "Historisches Kolloquium der Technischen Universität Braunschweig"
-        past: false
+        past: true
       - title: "Enhancing Named Entity Recognition for Digital History: Towards Explainable and Trustworthy Models"
         date: "27 - 28 March 2025"
         people: "Dominic Weber"
