@@ -42,7 +42,15 @@ timeline:
         links:
           - title: "Digital Humanities for Islamic Studies – Introduction, Exchange, and Hands-on"
             url: https://www.islamwissenschaft.unibe.ch/index_eng.html
-        past: <false>
+        past: false
+      - title: "Hanse goes Digital: Ein Mixed Methods Ansatz zur digitalen Analyse hansischer Privilegienpolitik in HTR-transkribierten Hanserezessen"
+        date: "28 July 2025"
+        people: Angela Huang, Inga Lange
+        place: "Sommerschule Digital History. Werkzeuge für Quellenerschließung und Textanalyse, Kiel University, online"
+        links:
+          - title: "Summer School Programme"
+            url: https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/aktuelles/programm-sommerschule-2025.jpg/image
+        past: false
       - title: "Session 544 'Digital Data Flows: Processing Medieval Documents from England, Berne, and the Hanse'"
         date: "07 - 10 July 2025"
         people: Tobias Hodel, Silke Schwandt, Christopher Kuhlmann, Inga Lange, Dominic Weber
