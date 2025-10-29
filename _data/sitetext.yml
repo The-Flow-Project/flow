@@ -20,13 +20,21 @@ portfolio:
   closebutton: "Close Project"
 
 timeline:
-    title: "Activites"
+    title: "Activities"
     text: "Our past and upcoming activities"
     section: activities
     show_past_events: 3
     # left is the default
     #start_align: "left"
     events:
+      - title: "Panel ‘Arabic Pasts: Histories and Historiography’ and Digital Method Workshop"
+        date: 8 -10 October 2025
+        people: Sefer Korkmaz, Ilyes Mechentel
+        place: London, AKU-ISMC
+        links:
+          - title: Workshop Details
+            url: https://kitab-project.org/arabic-pasts-2025/  >
+        past: true
       - title: "Summer School: Building Workflows in the Digital Humanities"
         date: "09 - 12 September 2025"
         people: "The Flow Team"
@@ -34,7 +42,7 @@ timeline:
         links:
           - title: "Further Information and Application Instructions"
             url: https://www.hsozkult.de/event/id/event-155032?title=building-workflows-in-the-digital-humanities&recno=1&q=digital+academy&sort=newestPublished&fq=&total=6#mtAc_event-99764
-        past: false
+        past: true
       - title: "Summer School: Digital Humanities for Islamic Studies – Introduction, Exchange, and Hands-on"
         date: "01 - 04 September 2025"
         people: Sefer Korkmaz
@@ -42,7 +50,7 @@ timeline:
         links:
           - title: "Digital Humanities for Islamic Studies – Introduction, Exchange, and Hands-on"
             url: https://www.islamwissenschaft.unibe.ch/index_eng.html
-        past: false
+        past: true
       - title: "Hanse goes Digital: Ein Mixed Methods Ansatz zur digitalen Analyse hansischer Privilegienpolitik in HTR-transkribierten Hanserezessen"
         date: "28 July 2025"
         people: Angela Huang, Inga Lange
@@ -50,7 +58,7 @@ timeline:
         links:
           - title: "Summer School Programme"
             url: https://www.histsem.uni-kiel.de/de/das-institut-1/abteilungen/professur-fuer-geschichte-des-spaeten-mittelalters-sowie-wirtschafts-und-sozialgeschichte/aktuelles/programm-sommerschule-2025.jpg/image
-        past: false
+        past: true
       - title: "Session 544 'Digital Data Flows: Processing Medieval Documents from England, Berne, and the Hanse'"
         date: "07 - 10 July 2025"
         people: Tobias Hodel, Silke Schwandt, Christopher Kuhlmann, Inga Lange, Dominic Weber
@@ -58,7 +66,7 @@ timeline:
         links:
           - title: "Session Details"
             url: https://imc-leeds.confex.com/imc/2025/prelim.cgi/Session/7158
-        past: false
+        past: true
       - title: "Panel: Text, Technology, and Tradition: Leveraging Digital Methods in Islamic Research, BRAIS 2025: Annual Conference of the British Association of Islamic Studies"
         date: "30 June 2025"
         people: Sefer Korkmaz
@@ -72,13 +80,15 @@ timeline:
         people: "Angela Huang & Silke Schwandt"
         place: "Workshop \"Künstliche Intelligenz und historische (Justiz-)-Forschung\", Justus-Liebig-Universität Gießen"
         past: true
-      - title: "Microservice-Based Data Management and Processing: A Workflow using GitHub Repositories and Actions"
+      - title: "Microservice-Based Data Management and Processing: A Modular Workflow for Automatic Text Recognition and Beyond"
         date: "3 - 6 June 2025"
         people: "Dana Meyer & Jonas Widmer"
         place: "DH Benelux 2025, Vrije Universiteit Amsterdam"
         links:
           - title: "Conference Details"
             url: https://2025.dhbenelux.org/
+          - title: "Presentation Slides"
+            url: https://zenodo.org/records/15647624
         past: true
       - title: "Hanse goes digital: (halb)automatisierte Handschriftenerkennung und digitale Auswertung von Hansequellen - Erfahrungen und Perspektiven"
         date: "15 May 2025"
@@ -110,6 +120,11 @@ timeline:
         date: "11 - 12 February 2025"
         people: "Mathew Barber (*[Aga Khan University, ISMC London](https://aku.academia.edu/MathewBarber)*), Moritz Feichtinger (*[University of Basel](https://dg.philhist.unibas.ch/de/personen/moritz-feichtinger/)*), Andreas Kuczera (*[Technische Hochschule Mittelhessen](https://www.thm.de/mni/andreas-kuczera)*), Ina Serif (*[University of Basel](https://dg.philhist.unibas.ch/de/personen/ina-cathrin-serif/)*), Sefer Korkmaz, Christopher Kuhlmann, Inga Lange, Dominic Weber"
         place: Online
+        past: true
+      - title: "Workshop: \"Archive im digitalen Zeitalter: Wie (halb)automatisierte Handschriftenerkennung unseren Zugang zu Quellen verändern kann\""
+        date: "05 February 2025"
+        people: Bart Holterman
+        place: "Schleswig, Kreis- & Stadtarchiv Kulturstiftung des Kreises Schleswig-Flensburg"
         past: true
       - title: "Workshop \"BeNASch: Praktische Einblicke und Diskussion. Ein Workshop zur nachhaltigen Annotation von Entitäten und Ereignissen in historischen Texten\""
         date: "23 - 24 January 2025"
