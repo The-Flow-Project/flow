@@ -27,8 +27,16 @@ timeline:
     # left is the default
     #start_align: "left"
     events:
+      - title: "The FLOW Project: A Modular Workflow for Automatic Text Recognition and Beyond"
+        date: 18 February 2026
+        people: Jonas Widmer, Dana Meyer
+        place: Online event, Centre for Digital Scholarship (Bodleian Libraries), University of Oxford
+        links:
+          - title: Event page
+            url: https://digitalscholarship.web.ox.ac.uk/event/the-flow-project-a-modular-workflow-for-automatic-text-recognition-and-beyond
+        past: false
       - title: "Panel ‘Arabic Pasts: Histories and Historiography’ and Digital Method Workshop"
-        date: 8 -10 October 2025
+        date: 8 - 10 October 2025
         people: Sefer Korkmaz, Ilyes Mechentel
         place: London, AKU-ISMC
         links:
