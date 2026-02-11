@@ -35,6 +35,14 @@ timeline:
           - title: Event page
             url: https://digitalscholarship.web.ox.ac.uk/event/the-flow-project-a-modular-workflow-for-automatic-text-recognition-and-beyond
         past: false
+      - title: "<rse-workshop version=”2″/>"
+        date: 04 - 05 December 2026
+        people: Jonas Widmer, Inga Kirschnick *(Bielefeld University)*, Patrick Jentsch *(Bielefeld University)*, Malte Meister *(TU Darmstadt)*
+        place: Technische Universität Darmstadt
+        links:
+          - title: Workshop Recap (written by Inga Kirschnick)
+            url: https://digihistbie.hypotheses.org/1083
+        past: true        
       - title: "Panel ‘Arabic Pasts: Histories and Historiography’ and Digital Method Workshop"
         date: 8 - 10 October 2025
         people: Sefer Korkmaz, Ilyes Mechentel
