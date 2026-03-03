@@ -27,6 +27,14 @@ timeline:
     # left is the default
     #start_align: "left"
     events:
+      - title: "Transcribathon on Ottoman Arabic Court Registers"
+        date: 20 February 2026
+        people: Sefer Korkmaz, Mohamed Ilyes Mechentel, Serena Tolino, Tobias Hodel
+        place: Online event, University of Bern
+        links:
+          - title: Event flyer
+            url: https://www.islamwissenschaft.unibe.ch/e101652/e784868/e1766690/FlyerTranscribathon_ger.pdf
+        past: true
       - title: "The FLOW Project: A Modular Workflow for Automatic Text Recognition and Beyond"
         date: 18 February 2026
         people: Jonas Widmer, Dana Meyer
@@ -34,7 +42,7 @@ timeline:
         links:
           - title: Event page
             url: https://digitalscholarship.web.ox.ac.uk/event/the-flow-project-a-modular-workflow-for-automatic-text-recognition-and-beyond
-        past: false
+        past: true
       - title: "<rse-workshop version=”2″/>"
         date: 04 - 05 December 2026
         people: Jonas Widmer, Inga Kirschnick *(Bielefeld University)*, Patrick Jentsch *(Bielefeld University)*, Malte Meister *(TU Darmstadt)*
@@ -45,7 +53,7 @@ timeline:
         past: true        
       - title: "Panel ‘Arabic Pasts: Histories and Historiography’ and Digital Method Workshop"
         date: 8 - 10 October 2025
-        people: Sefer Korkmaz, Ilyes Mechentel
+        people: Sefer Korkmaz, Mohamed Ilyes Mechentel
         place: London, AKU-ISMC
         links:
           - title: Workshop Details
